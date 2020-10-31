@@ -1,4 +1,4 @@
-<h1>Burgers!</h1>
+<h1>Eat-Da-Burger!</h1>
 
 <h2>Burgers that are not devoured!</h2>
 
@@ -7,7 +7,7 @@
     {{#unless devoured}}
       <li>
 	      {{id}}. {{name}}
-	    <button class="change-devoured" data-id="{{id}}" data-newEaten="{{eaten}}">Eat Me!</button>
+	    <button class="change-devoured" data-id="{{id}}" data-newEaten="{{eaten}}">Devour It!</button>
       </li>
     {{/unless}}
   {{/each}}
@@ -39,5 +39,6 @@
     <input type="radio" name="devoured" value="0"> Ready to eat
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button type="submit">Sumbit</button>
+  <p>Enter a burger you want to eat Click the "Submit" button.</p>
 </form>
